@@ -1,0 +1,8 @@
+- name: openstack-runner-apb provision
+  hosts: localhost
+  gather_facts: false
+  connection: local
+  roles:
+  - openstack-runner-apb
+  vars:
+    state: absent
