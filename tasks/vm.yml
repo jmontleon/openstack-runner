@@ -12,6 +12,8 @@
       instance_type: "{{ flavor }}"
       image_name: "{{ image }}"
       key_name: "{{ key }}"
+      network_name: "{{ network }}"
+      security_group_name: "{{ security_group }}"
     auth:
       auth_url: "{{ url }}"
       username: "{{ user }}"
